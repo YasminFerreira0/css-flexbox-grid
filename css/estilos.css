@@ -9,6 +9,8 @@ body {
     color: #FFFFFF;
 }
 
+/**header**/
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -32,7 +34,37 @@ body {
     width: 40px;
 }
 
+/**nav**/
+
 .menu-lateral {
     display: flex;
-
+    flex-direction: column;
 }
+.menu-lateral__logo {
+    align-self: center;
+}
+
+.menu-lateral_inicio_link i::before {
+    content: "\e902";
+}
+
+.menu-lateral_videos_link i::before {
+    content: "\e90e";
+}
+
+.menu-lateral_picos_link i::before {
+    content: "\e909";
+}
+
+.menu-lateral_integrantes_link i::before {
+    content: "\e903";
+}
+
+.menu-lateral_camisetas_link i::before {
+    content: "\e900";
+}
+
+.menu-lateral_pinturas_link i::before {
+    content: "\e90a";
+}
+
