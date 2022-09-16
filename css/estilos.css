@@ -51,14 +51,16 @@ body {
 }
 
 .menu-lateral__link {
-    width: 64px;
+    height: 64px;
     color: #95999C;
     padding-left: 64px;
     display: flex;
+    align-items: center;
+    
 }
 
 .menu-lateral__link::before {
-    content: "";
+    content: "\e900";
     width: 24px;
     height: 24px;
     font-size: 24px;
