@@ -68,28 +68,26 @@ body {
     left: 24px;
 }
 
-/**
-.menu-lateral_inicio_link i::before {
+.menu-lateral__link--inicio::before {
     content: "\e902";
 }
 
-.menu-lateral_videos_link i::before {
+.menu-lateral__link--videos::before {
     content: "\e90e";
 }
 
-.menu-lateral_picos_link i::before {
+.menu-lateral__link--picos::before {
     content: "\e909";
 }
 
-.menu-lateral_integrantes_link i::before {
+.menu-lateral__link--integrantes::before {
     content: "\e903";
 }
 
-.menu-lateral_camisetas_link i::before {
+.menu-lateral__link--camisetas::before {
     content: "\e900";
 }
 
-.menu-lateral_pinturas_link i::before {
+.menu-lateral__link--pinturas::before {
     content: "\e90a";
 }
-**/
