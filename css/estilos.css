@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1D232A;
+    background-color: #15191C;
     padding: 8px 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
 }
@@ -46,7 +46,7 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
-    .cabecalho__perfil {
+    .cabecalho {
         background-color: #1D232A;
         display: grid;
         column-gap: 32px;
@@ -54,6 +54,7 @@ body {
         padding: 16px 60px;
         height: 80px;
         box-sizing: border-box;
+        grid-column: 2;
     }
 
     .cabecalho__menu {
@@ -170,6 +171,8 @@ body {
     .menu-lateral {
         position: static;
         width: 200px;
+        grid-column: 1;
+        grid-row: 1 / span 2;
     }
     
 }
@@ -193,6 +196,7 @@ body {
         grid-template-columns: auto 1fr auto;
         column-gap: 32px;
         padding: 16px 60px;
+        grid-column: 2;
     }
 }
 
